@@ -66,6 +66,7 @@ function init(){
     console.log("Task Manager");
 
     // loads data
+    
 
     // assigns events
     $("#iImportant").click(toggleImportant);
