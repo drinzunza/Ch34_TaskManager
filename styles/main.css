@@ -6,15 +6,21 @@ h1 {
 
 .container {
     display: flex;
+    background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96vh;
 }
 
 .list-container {
     flex: 5;
+    padding: 20px 30px;
 }
 
 .form-container {
-    background-color: #fafafa;
+    background-color: #c1c1c1a3;
     flex: 3;
+    padding: 20px 30px;
 }
 
 .my-form {
@@ -42,8 +48,30 @@ h1 {
 
 .task {
     display: flex;
+    border:1px solid #6a6a6a;
+    background-color: rgba(224, 224, 224, 0.78);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 12px;
+
+    box-shadow: -8px 8px 20px -12px rgba(0,0,0,0.75);
 }
 
 .task label {
     display: block;
+    margin-bottom: 5px;
+}
+
+.task .col1 {
+    flex: 4;
+}
+
+.task .col2 {
+    flex: 1;
+}
+
+.task .col3 {
+    flex: 1;
 }
