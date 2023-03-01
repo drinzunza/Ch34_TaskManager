@@ -53,6 +53,8 @@ function saveTask() {
             alert("Unexpected Error");
         }
     });   
+
+    // JS will do execute operations here, before the response from the server
 }
 
 function clearForm() {
