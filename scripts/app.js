@@ -45,6 +45,7 @@ function saveTask() {
 
             // display logic
             displayTask(task);
+            clearForm();
         },
         error: function(error) {
             console.log(error);
@@ -52,6 +53,10 @@ function saveTask() {
             alert("Unexpected Error");
         }
     });   
+}
+
+function clearForm() {
+    $("#txtTitle").val("");
 }
 
 function displayTask(task) {
